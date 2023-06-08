@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            font-family:sans-serif;
+        }
+        input{
+            margin: 0.5rem;
+            border-radius: 16px;
+            padding: 8px;
+        }
+        button{
+            padding: 0.5rem;
+            border-radius: 8px;
+            background-color: white;
+            font-weight: 600;
+            cursor: pointer;
+        }
+        button:hover{
+            background-color: black;
+            color: white;
+        }
+        label{
+            font-weight: 600;
+        }
+        h3{
+            background-color: black;
+            color: white;
+            padding-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <label for="num1">Number1</label>
+    <input type="text" id="num1"><br>
+    <label for="num2">Number2</label>
+    <input type="text" id="num2"><br>
+    <button id="add" onclick="add()">Add</button>
+    <button id="substract" onclick="sub()">Substract</button>
+    <button id="multiply" onclick="mul()">Multiply</button>
+    <button id="divide" onclick="divide()">Divide</button><br>
+    <h3 id="answer">Answer</h3>
+    <script src="program2.js"></script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+*{
+    font-family: "Roboto","Roboto Condensed",sans-serif;
+}
+body{
+    background: url(background.avif) no-repeat;
+    text-align: center;
+    background-size: cover;
+    color: white;
+    font-weight: bold;
+
+}
+h1{
+    color: goldenrod;
+
+}
+#message-el{
+    font-style: italic;
+    
+}
+button{
+    color: #016f32;
+    background: goldenrod;
+    width: 150px;
+    border: none;
+    padding: .5rem;
+    font-weight: bold;
+    font-size: 1rem;
+    border-radius: 2px;
+    margin: 4px;
+}
